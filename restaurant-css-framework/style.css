@@ -1,0 +1,131 @@
+.box {
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #d8b9f2;
+    text-align: center;
+}
+.inner-box {
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #fff;
+}
+/* styles.css */
+
+/* Style general para el sitio */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #6f42c1;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Jumbotron style for the welcome page */
+.jumbotron {
+    background-color: #e9ecef;
+    padding: 2rem 1rem;
+    border-radius: .3rem;
+}
+
+.jumbotron .display-4 {
+    font-size: 2.5rem;
+}
+
+.jumbotron .lead {
+    font-size: 1.25rem;
+}
+
+/* Card style for promo and events */
+.card {
+    border:none;
+    border-radius: .5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #495057;
+}
+
+/* Menu page styles */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    background-color: #fff;
+    padding: .75rem 1.25rem;
+}
+
+.badge {
+    font-size: 1rem;
+    padding: .5em .75em;
+}
+
+/* Gallery page styles */
+.img-fluid {
+    border-radius: .25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 15px;
+}
+
+/* Pagination styles */
+.pagination .page-item .page-link {
+    color: #6f42c1;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+/* Restaurant page styles */
+.container .row .col-md-6 {
+    margin-bottom: 30px;
+}
+
+iframe {
+    border-radius: .25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Contact page styles */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control, .form-select {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #6f42c1;
+    box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25);
+}
+
+.btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.btn-primary:hover {
+    background-color: #5a3a99;
+    border-color: #5a3a99;
+}
+
+.footer {
+    background-color: #6f42c1;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
