@@ -1,0 +1,175 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333; 
+    background-color: #161616;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.bg-image {
+    background-image: url('blockchain-tech.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background-color: #f8f9fa;
+}
+
+
+.navbar {
+    margin-bottom: 0px; 
+    background-color: #000000;
+    opacity: 100%;
+}
+.nav-item{
+    color:gold;
+    text-decoration:none;
+    background-color: transparent;
+}
+
+.bg-container {
+    position: relative;
+    background-image: url('blockchain-tech.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the opacity (0.5) as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    z-index: 1;
+    position: relative;
+    padding: 0px 99;
+    text-align: center;
+    color: aliceblue;
+}
+.container {
+
+    background-position:center;
+    background-size: cover;
+    border-color: lightblue;
+    border-style:outset;
+}
+
+.jumbotron {    
+    padding: 2rem 1rem;
+    border-radius: .3rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-image: var('bg-dark.bg-gradient');
+}
+
+.jumbotron .display-4 {
+    font-size: 2.5rem;
+}
+
+.jumbotron .lead {
+    font-size: 1.25rem;
+}
+
+.card {
+    border:none;
+    border-radius: .5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(255, 255, 255, 0.9);
+    opacity: 70%;
+
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #1986f4;
+   
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    background-color: #610101;
+    padding: .75rem 1.25rem;
+}
+
+.badge {
+    font-size: 1rem;
+    padding: .5em .75em;
+}
+
+
+
+/* Gallery page styles */
+.img-fluid {
+    border-radius: .25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 15px;
+}
+
+/* Pagination styles */
+.pagination .page-item .page-link {
+    color: #6f42c1;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.container .row .col-md-6 {
+    margin-bottom: 30px;
+}
+
+iframe {
+    border-radius: .25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control, .form-select {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #6f42c1;
+    box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25);
+}
+
+.btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.btn-primary:hover {
+    background-color: #5a3a99;
+    border-color: #5a3a99;
+}
+
+.footer {
+    background-color: #6f42c1;
+    color: #9a3b3b;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
