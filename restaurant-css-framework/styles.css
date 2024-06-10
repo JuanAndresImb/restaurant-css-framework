@@ -1,10 +1,23 @@
 
-/* Style general para el sitio */
 body {
     font-family: Arial, sans-serif;
     color: #333; 
     background-color: #161616;
     position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.bg-image {
+    background-image: url('blockchain-tech.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background-color: #f8f9fa;
 }
 
 
@@ -19,13 +32,12 @@ body {
     background-color: transparent;
 }
 
-/* Jumbotron style for the welcome page */
 .bg-container {
     position: relative;
     background-image: url('blockchain-tech.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Adjust this height as needed */
+    height: 100vh; 
 }
 
 .overlay {
@@ -49,16 +61,13 @@ body {
     color: aliceblue;
 }
 .container {
-    background-repeat:  no-repeat;
-    background-position: center;
-    background-size:  cover; 
-    background-image: url('salle_4.jpg');
-    background-repeat: no-repeat;
+
     background-position:center;
     background-size: cover;
     border-color: lightblue;
     border-style:outset;
 }
+
 .jumbotron {    
     padding: 2rem 1rem;
     border-radius: .3rem;
@@ -75,7 +84,6 @@ body {
     font-size: 1.25rem;
 }
 
-/* Card style for promo and events */
 .card {
     border:none;
     border-radius: .5rem;
@@ -90,7 +98,6 @@ body {
    
 }
 
-/* Service page styles */
 .list-group-item {
     display: flex;
     justify-content: space-between;
@@ -125,7 +132,6 @@ body {
     border-color: #6f42c1;
 }
 
-/* Restaurant page styles */
 .container .row .col-md-6 {
     margin-bottom: 30px;
 }
@@ -135,7 +141,6 @@ iframe {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
-/* Contact page styles */
 .form-label {
     font-weight: bold;
 }
