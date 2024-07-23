@@ -10,7 +10,7 @@
 
 ## Lien GitHub Pages
 
-[Lien vers le site](https://juanandresimb.github.io/web-3-solutions/)
+[Lien vers le site](https://juanandresimb.github.io/restaurant-css-framework/)
 
 ## Quoi
 
